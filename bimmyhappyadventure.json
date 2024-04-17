@@ -1,0 +1,168 @@
+{
+    "Title": "Bimmy's Happy Adventure",
+    "Credits": "Created by James Chen (jaruchen@ucsc.edu).",
+    "InitialLocation": "Beginning of Conciousness",
+    "Locations": {
+        "Beginning of Conciousness" : {
+            "Body" : "<br>. <br>.. <br>... <br> At first, there is nothing. ",
+            "Choices" : [{
+                "Text": "Wake Up.",
+                "Target": "The Strange Atmosphere"
+            }]
+        },
+        "The Strange Atmosphere" : {
+            "Body" : "The scene shifts. A space of dark and a singular light above. <br> There stands Bimmy, who has just woken. <br><br> Bimmy decides to...",
+            "Choices" : [{
+                "Text": "Move Forward.",
+                "Target": "Neverending Winter"
+            },
+            {
+                "Text": "Stay Behind.",
+                "Target": "Warm Delights"
+            }]
+        },
+        "Neverending Winter" : {
+            "Body" : "The black landscape turns sheer white. The light becoming blinding. Snow starts to fall. <br> The cold is settling in.",
+            "Choices" : [{
+                "Text": "Move Forward.",
+                "Target": "Extermities Disabled"
+            },{
+                "Text": "Resist Cold.",
+                "Target": "Neverending Winter 2"
+            }]
+        },
+        "Neverending Winter 2" : {
+            "Body" : "Bimmy attempts to stave off the cold, shivering harder, yet more snow falls. The cold never stops.",
+            "Choices" : [{
+                "Text": "Move Forward.",
+                "Target": "Extermities Disabled"
+            }]
+        },
+        "Extermities Disabled" : {
+            "Body" : "The wind picks up. The land becomes scoured in the aftermath of winter. <br> Bimmy looks back. The ground once trodden is now cracked and falling down an endless void. There is only one place to go from here.",
+            "Choices" : [{
+                "Text": "Move Forward.",
+                "Target": "Blistering Frost"
+            },{
+                "Text": "Resist Wind.",
+                "Target": "Extermities Disabled 2"
+            }]
+        },
+        "Extermities Disabled 2" : {
+            "Body" : "Despite the struggle, the wind ignores Bimmy's protest, and blows more cold toward their direction.",
+            "Choices" : [{
+                "Text": "Move Forward.",
+                "Target": "Blistering Frost"
+            }]
+        },
+        "Blistering Frost" : {
+            "Body" : "The cold only becomes worse and worse. Bimmy stops feeling their fingers and toes as they walk through the snow. Yet the world is shattering on the way behind them and with no other way out, Bimmy marches forward.",
+            "Choices" : [{
+                "Text": "Move Forward.",
+                "Target": "Burning Numbness"
+            }]
+        },
+        "Burning Numbness" : {
+            "Body" : "Bimmy suddenly feels much warmer as the snow piles further and more violently. The coldness permeates throughout Bimmy's body, and can not longer decide what is real anymore. Yet, Bimmy can only go one way.",
+            "Choices" : [{
+                "Text": "Move Forward.",
+                "Target": "Necrosis"
+            }]
+        },
+        "Necrosis" : {
+            "Body" : "The snow level rises and rises, until there is no trace of Bimmy. Yet, buried under the freezing cold is Bimmy moving forward until they reach a new darkness.",
+            "Choices" : [{
+                "Text": "Move Forward.",
+                "Target": "A Loud Sound"
+            }],
+            "glflag2" : true
+        },
+        "Warm Delights" : {
+            "Body" : "The black landscape solidfies into a brick room, with the walls covered in large patches of fabric. <br> <br> There is a tunnel with bright and blazing light, a tunnel of intense complexity, and what seems to be a large door. ",
+            "Body4" : "The Torch shines brightly in Bimmy's hand.",
+            "Choices" : [{
+                "Text": "The Bright Path",
+                "Target": "The Burning Totem"
+            },{
+                "Text": "The Dim Path",
+                "Target": "Delusion"
+            },{
+                "Text": "The Wall",
+                "Target": "Wall Of Fabric"
+            }]
+        },
+        "The Burning Totem" : {
+            "Body" : "Within the bright room is a giant bonfire, which burns warmly yet violently. ",
+            "Choices" : [{
+                "Text": "Torch",
+                "Target": "The Burning Totem 2"
+            },{
+                "Text": "Return",
+                "Target": "Warm Delights"
+            }]
+        },
+        "The Burning Totem 2" : {
+            "Body" : "Bimmy grabs a torch. It shines.",
+            "glflag4" : true,
+            "Choices" : [{
+                "Text": "Return",
+                "Target": "Warm Delights"
+            }]
+        },
+        "Delusion" : {
+            "Body" : "The walls start to break down, as the black landscape threatens to crawl back. However, a large shattered portal appears at the end of the tunnel. ",
+            "Choices" : [{
+                "Text": "Walk into Wonderland",
+                "Target": "Pancake Haven"
+            },{
+                "Text": "Return",
+                "Target": "Warm Delights"
+            }]
+        },
+        "Pancake Haven" : {
+            "Body" : "The room is filled of PANCAKES. The syrupy smell of freshly made pancakes drags Bimmy closer, yet it seems inescapable.",
+            "Choices" : [{
+                "Text": "Enbrace Wonderland",
+                "Target": "Pancake Haven"
+            },{
+                "Text": "Return",
+                "Target": "Delusion"
+            }],
+            "glflag1" : true
+        },
+        "Wall Of Fabric" : {
+            "Body" : "A large door blocks the way. Opening it proves to be impossible, with all the fabric covering the door.",
+            "Body4" : "Yet, the torch opens an option not seen before.",
+            "Locked" : [
+            {
+                "Text": "Shine Through",
+                "Target": "Liberation from Comfort"
+            }],
+            "Choices" : [
+            {
+                "Text": "Return",
+                "Target": "Warm Delights"
+            }]
+        },
+        "Liberation from Comfort" : {
+            "Body" : "Two large hands from the sky rip the fabric off the door as Bimmy holds the torch to the door. The door bursts open with a light piercing the darkness of the room. Bimmy steps forward. <br> <br> Bimmy only sees the way forward.",
+            "Choices" : [{
+                "Text": "Enter the Light",
+                "Target": "A Loud Sound"
+            }]
+        },
+        "A Loud Sound" : {
+            "Body" : "A terribly loud screech pierces the sky, with the force of thousands of bells ringing resolutely across thousands of miles. The world shatters as the resonance breaks the reality. <br> <br> It is time.",
+            "Choices" : [{
+                "Text": "Wake Up.",
+                "Target": "Wake Up from Non-Reality"
+            }]
+        },
+        "Wake Up from Non-Reality" : {
+            "Body" : "Bimmy wakes up. They turn off the alarm, and get up. It was a dream.",
+            "Body2" : "When they arrive out of their room, there are pancakes on the table.",
+            "Body3" : "When they wake up, they see that their blanket was on the floor. Seems like that caused the dream.."
+            
+        }
+    }
+}
